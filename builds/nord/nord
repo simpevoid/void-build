@@ -1,0 +1,7 @@
+/* function format          argument */
+{ wifi_essid, "^b#2e3440^^c#eceff4^  %s ^d^", "wlp2s0" },       // Nord Dark background, Nord Snow foreground
+{ cpu_perc, "^b#3b4252^^c#e5e9f0^  %s%% ^d^", NULL },          // Nord Lighter Dark background, Nord Lighter Light foreground
+{ battery_perc, "^b#434c5e^^c#d8dee9^  %s%% ^d^", "BAT0" },    // Nord Darker Gray background, Nord Light foreground
+{ run_command, "^b#4c566a^^c#d8dee9^  %s ^d^", " /home/void/scripts/svol.sh" }, // Nord Gray background, Nord Light foreground
+{ datetime, "^b#d8dee9^^c#2e3440^  %s ", "%a %d %b  %I:%M %p" } // Nord Light background, Nord Dark foreground
+
